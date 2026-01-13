@@ -1,4 +1,4 @@
-# Orkunkok.github.io
+# orkunkok.github.io
 # Orkun Kök
 **Bilkent University | Electrical and Electronics Engineering**
 
