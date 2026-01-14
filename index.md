@@ -82,6 +82,8 @@ This site documents the hardware projects and embedded systems I’ve developed 
 
 <details>
   <summary><b>Feedback and Control Systems</b></summary>
+  
+## Feedback and Control Systems
   <ul>
     <li><b>Preliminary Assignment 1</b> — <a href="reports/prelab1_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
@@ -100,5 +102,25 @@ This site documents the hardware projects and embedded systems I’ve developed 
   <ul>
     <li><b>Assignment 3</b> — <a href="reports/EEE342%20lab3_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
+</details>
+
+<details>
+  <summary><b>Analog Systems</b></summary>
   
+## Circuit Theory
+  <ul>
+    <li><b>Assignment 1</b> — <a href="reports/lab1%20ee202%20report.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+  <ul>
+    <li><b>Assignment 2</b> — <a href="reports/Lab2%20ee202%20report.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+  <ul>
+    <li><b>Assignment 3</b> — <a href="reports/lab3%20ee202%20report.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+    <ul>
+    <li><b>Assignment 4</b> — <a href="reports/Lab4%20report%20ee202.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+    <ul>
+    <li><b>Assignment 5</b> — <a href="reports/Lab5%20report%20ee202.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
 </details>
