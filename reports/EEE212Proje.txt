@@ -1,0 +1,188 @@
+#include "MKL25Z4.h"  // Device header
+#include <stdlib.h>    // For rand() and srand()
+#include <stdio.h>     // For sprintf
+
+// Pin Definitions for LCD
+#define RS (1 << 1)  // PTC1
+#define EN (1 << 2)  // PTC2
+#define D4 (1 << 4)  // PTC4
+#define D5 (1 << 5)  // PTC5
+#define D6 (1 << 6)  // PTC6
+#define D7 (1 << 7)  // PTC7
+
+// Pin Definitions for Jumper
+#define JUMPER_PIN 12   // Jumper connected to PTC12
+#define SWITCH_PIN 4    // Button connected to PTA4
+#define LED_PIN 5       // LED connected to PTA5
+
+// Function Prototypes for LCD and SysTick
+void delay_ms(unsigned int delay);
+void LCD_Command(unsigned char cmd);
+void LCD_Data(unsigned char data);
+void LCD_Init(void);
+void LCD_Print(const char *str);
+void SysTick_Handler(void);
+
+// Variables for SysTick Timer
+volatile uint32_t milliseconds = 0;  // Milliseconds counter
+volatile uint8_t timer_running = 0;   // Timer running flag
+volatile uint32_t random_delay_time = 0;  // Store the random delay time
+
+// Delay function (simple)
+void delay_ms(unsigned int delay) {
+    for (volatile unsigned int i = 0; i < delay * 6000; i++);
+}
+
+// LCD Command function
+void LCD_Command(unsigned char cmd) {
+    PTC->PCOR = RS;  // RS = 0 for command
+    PTC->PSOR = EN;  // EN = 1
+    PTC->PCOR = (D4 | D5 | D6 | D7);  // Clear data lines
+
+    // Send higher nibble
+    PTC->PSOR = ((cmd >> 4) & 0x0F) << 4;
+    PTC->PCOR = EN;  // EN = 0
+    delay_ms(1);
+    PTC->PSOR = EN;  // EN = 1
+
+    // Send lower nibble
+    PTC->PCOR = (D4 | D5 | D6 | D7);  // Clear data lines
+    PTC->PSOR = (cmd & 0x0F) << 4;
+    PTC->PCOR = EN;  // EN = 0
+    delay_ms(1);
+}
+
+// LCD Data function
+void LCD_Data(unsigned char data) {
+    PTC->PSOR = RS;  // RS = 1 for data
+    PTC->PSOR = EN;  // EN = 1
+    PTC->PCOR = (D4 | D5 | D6 | D7);  // Clear data lines
+
+    // Send higher nibble
+    PTC->PSOR = ((data >> 4) & 0x0F) << 4;
+    PTC->PCOR = EN;  // EN = 0
+    delay_ms(1);
+    PTC->PSOR = EN;  // EN = 1
+
+    // Send lower nibble
+    PTC->PCOR = (D4 | D5 | D6 | D7);  // Clear data lines
+    PTC->PSOR = (data & 0x0F) << 4;
+    PTC->PCOR = EN;  // EN = 0
+    delay_ms(1);
+}
+
+// Initialize LCD
+void LCD_Init(void) {
+    SIM->SCGC5 |= SIM_SCGC5_PORTC_MASK;  // Enable clock for PORTC
+    PORTC->PCR[1] = PORT_PCR_MUX(1);     // PTC1 as GPIO (RS)
+    PORTC->PCR[2] = PORT_PCR_MUX(1);     // PTC2 as GPIO (EN)
+    PORTC->PCR[4] = PORT_PCR_MUX(1);     // PTC4 as GPIO (D4)
+    PORTC->PCR[5] = PORT_PCR_MUX(1);     // PTC5 as GPIO (D5)
+    PORTC->PCR[6] = PORT_PCR_MUX(1);     // PTC6 as GPIO (D6)
+    PORTC->PCR[7] = PORT_PCR_MUX(1);     // PTC7 as GPIO (D7)
+
+    PTC->PDDR |= (RS | EN | D4 | D5 | D6 | D7);  // Set pins as output
+    PTC->PCOR = (RS | EN | D4 | D5 | D6 | D7);  // Clear all pins
+
+    delay_ms(20);       // Wait for LCD to power up
+    LCD_Command(0x02);  // Initialize LCD in 4-bit mode
+    LCD_Command(0x28);  // 4-bit, 2 lines, 5x7 font
+    LCD_Command(0x0C);  // Display ON, cursor OFF
+    LCD_Command(0x06);  // Entry mode, auto-increment cursor
+    LCD_Command(0x01);  // Clear display
+    delay_ms(2);
+}
+
+// Print string to LCD
+void LCD_Print(const char *str) {
+    while (*str) {
+        LCD_Data(*str++);
+    }
+}
+
+// Initialize SysTick Timer
+void SysTick_Init(void) {
+    SysTick->LOAD = 48000 - 1;  // 1 ms per tick (48 MHz clock)
+    SysTick->VAL = 0;           // Clear current value
+    SysTick->CTRL = SysTick_CTRL_CLKSOURCE_Msk | SysTick_CTRL_TICKINT_Msk | SysTick_CTRL_ENABLE_Msk;
+}
+
+// SysTick Handler (for 1 ms tick)
+void SysTick_Handler(void) {
+    if (timer_running) {
+        milliseconds++;
+    }
+}
+
+// Function to generate a random delay
+void random_delay() {
+    srand(milliseconds);  // Seed the random generator with the current time
+    random_delay_time = rand() % 5 + 1;  // Generate a delay between 1s and 5s
+    delay_ms(random_delay_time);  // Wait for the random delay
+}
+
+// Main function
+int main(void) {
+    // Enable clock to Port A and Port C
+    SIM->SCGC5 |= SIM_SCGC5_PORTC_MASK | SIM_SCGC5_PORTA_MASK;
+
+    // Configure PTA5 as GPIO for LED
+    PORTA->PCR[LED_PIN] = PORT_PCR_MUX(1);  // Set PTA5 as GPIO
+    PTA->PDDR |= (1 << LED_PIN);            // Set PTA5 to output direction
+
+    // Configure PTC12 as GPIO for jumper (button signal)
+    PORTC->PCR[JUMPER_PIN] = PORT_PCR_MUX(1);  // Set PTC12 as GPIO
+    PTC->PDDR &= ~(1 << JUMPER_PIN);  // Set PTC12 as input
+
+    // Configure PTA4 as GPIO for the button
+    PORTA->PCR[SWITCH_PIN] = PORT_PCR_MUX(1);  // Set PTA4 as GPIO
+    PTA->PDDR &= ~(1 << SWITCH_PIN);  // Set PTA4 as input
+    PORTA->PCR[SWITCH_PIN] |= PORT_PCR_PE(1) | PORT_PCR_PS(1);  // Enable pull-up resistor
+
+    // Initialize LCD
+    LCD_Init();
+    LCD_Print("Waiting...");
+
+    // Start SysTick Timer
+    SysTick_Init();
+    timer_running = 1;  // Start the timer
+
+    // LED control with random delay
+    random_delay();  // Generate a random delay
+    PTA->PTOR = (1 << LED_PIN);  // Turn on the LED (toggle PTA5)
+    delay_ms(1000);  // Wait for 1 second
+    PTA->PTOR = (1 << LED_PIN);  // Turn off the LED (toggle PTA5)
+
+    while (1) {
+        if (PTC->PDIR & (1 << JUMPER_PIN)) {  // Check if PTC12 is high (button pressed)
+            timer_running = 0;  // Stop the SysTick timer
+            uint32_t total_time = milliseconds * 2;  // Double the time
+            uint32_t seconds = total_time / 1000;       // Calculate seconds
+            uint32_t fractional_ms = total_time % 1000; // Calculate milliseconds part
+
+            // Subtract the random delay from the total time
+            total_time -= random_delay_time * 1000; // Convert to milliseconds
+
+            // Calculate the adjusted time (after subtracting the random delay)
+            seconds = total_time / 1000;        // Adjusted seconds
+            fractional_ms = total_time % 1000;  // Adjusted milliseconds part
+
+            // Clear LCD and display the adjusted time
+            LCD_Command(0x01);  // Clear the display
+            delay_ms(2);
+            char time_str[16];
+            sprintf(time_str, "%lu.%03lu s", seconds, fractional_ms);  // Format as X.XXX seconds
+            LCD_Print(time_str);  // Print elapsed time on the LCD
+
+            // Optional: Wait before restarting
+            delay_ms(2000);  // Wait 2 seconds before restarting
+            LCD_Command(0x01);  // Clear the display again
+            LCD_Print("Waiting...");
+
+            milliseconds = 0;  // Reset milliseconds counter
+            timer_running = 1;  // Restart the timer
+        }
+    }
+
+    return 0;
+}

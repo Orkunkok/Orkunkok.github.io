@@ -1,0 +1,57 @@
+ORG 00H
+
+MOV B, #10H
+
+MOV R0, #37H
+MOV R1, #4BH
+MOV R2, #1CH
+
+
+
+busefer: CLR C
+	MOV A, R0
+	;rotates dividends msb to left
+	RLC A
+	MOV R0, A
+	MOV A, R1
+	RLC A
+	MOV R1, A
+	MOV A, R6
+	;lsb of remainder
+	RLC A
+	MOV R6, A
+	MOV A, R7
+	RLC A
+	MOV R7, A
+	MOV A, R6
+	CLR C
+	SUBB A, R2
+	MOV DPL, A
+	;data pointer low byte
+	MOV A, R7
+	MOV DPH, A
+	;data pointer high byte
+	CPL C
+	JNC oldu
+	MOV R6, DPL
+	MOV R7, DPH
+
+
+oldu:
+	MOV A, R3
+	RLC A
+	MOV R3, A
+	MOV A, R4
+	RLC A
+	MOV R4, A
+	DJNZ B, busefer
+	MOV A, R6
+	MOV R5, A
+	MOV R6, #00H
+	MOV R0, #37H
+	MOV R1, #4BH
+	MOV R2, #1CH
+
+sonundabitti: SJMP sonundabitti
+
+END

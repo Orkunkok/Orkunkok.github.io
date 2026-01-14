@@ -1,0 +1,58 @@
+SIM->SCGC5 |= (1UL <<10); //ENABLE PORT B
+PORTB->PCR[0] = 0x100;
+PORTB->PCR[1] = 0x100;
+PORTB->PCR[2] = 0x100;
+PORTB->PCR[3] = 0x100;
+
+PTB->PDDR |= 0x0F; //set them for output pins
+
+SIM->SCGC5 |= (1UL <<11); //ENABLE PORT C
+PORTC->PCR[1] = 0x103; // Configure PTC1 as GPIO with pull-up resistor
+PORTC->PCR[2] = 0x103; // Configure PTC2 as GPIO with pull-up resistor
+PORTC->PCR[3] = 0x103; // Configure PTC2 as GPIO with pull-up resistor
+PTC->PDDR &= ~((1UL << 1) | (1UL << 2) | (1UL << 3)); // Clear bits 1 and 2 for input
+
+int main(void) {
+    init_GPIO();
+
+    int speed;         // Variable for speed delay
+    int direction = 1; // Variable for counting direction: 1 = up, -1 = down
+
+    while (1) {
+        // Check switch states
+        int switch1 = !(PTC->PDIR & (1UL << 1)); // Switch 1 (PTC1) pressed
+        int switch2 = !(PTC->PDIR & (1UL << 2)); // Switch 2 (PTC2) pressed
+        int switch3 = !(PTC->PDIR & (1UL << 3)); // Switch 3 (PTC3) pressed
+
+        // Set speed based on switches 1 and 2
+        if (switch1 && switch2) {
+            speed = 250000; // 250ms delay when both switches are pressed
+        } else if (switch1) {
+            speed = 500000; // Faster (500ms delay) when only Switch 1 is pressed
+        } else if (switch2) {
+            speed = 1000000; // Slower (2000ms delay) when only Switch 2 is pressed
+        } else {
+            speed = 0; // Default (1000ms delay) when no switches are pressed
+        }
+
+        // Set direction based on Switch 3
+        if (switch3) {
+            direction = -1; // Count down (15 to 0)
+        } else {
+            direction = 1;  // Count up (0 to 15)
+        }
+
+        // Binary counter logic
+        if (direction == 1) {
+            for (int i = 0; i < 16; i++) {
+                PTB->PDOR = (PTB->PDOR & ~0x0F) | (i & 0x0F); // Display i on LEDs
+                delay(speed); // Wait for the specified duration
+            }
+        } else {
+            for (int i = 15; i >= 0; i--) {
+                PTB->PDOR = (PTB->PDOR & ~0x0F) | (i & 0x0F); // Display i on LEDs
+                delay(speed); // Wait for the specified duration
+            }
+        }
+    }
+}
