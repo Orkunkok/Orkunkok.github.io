@@ -107,13 +107,13 @@ This site documents the hardware projects and embedded systems I’ve developed 
 </a>
 <br>
 **Assignment 3**
-<a href="reports/EEE212%20LAB5.pdf" target="_blank" rel="noopener"
+<a href="reports/EEE212%20LAB5.txt" target="_blank" rel="noopener"
    style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
   View
 </a>
 <br>
 **Project**
-<a href="reports/EEE212%Proje.txt" target="_blank" rel="noopener"
+<a href="reports/EEE212%20Proje.txt" target="_blank" rel="noopener"
    style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
   View
 </a>
