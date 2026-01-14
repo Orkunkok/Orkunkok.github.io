@@ -51,10 +51,22 @@ This site documents the hardware projects and embedded systems I’ve developed 
 
 ### ⚡ FPGA
 
-* **[FPGA Project Title 1]** - *Brief description of the logic design.*
-    * [📄 View/Download Report](./reports/fpga_report1.pdf)
-* **[FPGA Project Title 2]** - *Brief description of the logic design.*
-    * [📄 View/Download Report](./reports/fpga_report2.pdf)
+* **[FPGA Lab 1]** - *Brief description of the logic design.*
+    * [📄 View/Download Report](./reports/EEE102_Lab1.pdf)
+* **[FPGA Lab 2]** - *Brief description of the logic design.*
+    * [📄 View/Download Report](./reports/EEE102_Lab2.pdf)
+* **[FPGA Lab 3]** - *Brief description of the logic design.*
+    * [📄 View/Download Report](./reports/EEE102_Lab3.pdf)
+* **[FPGA Lab 4]** - *Brief description of the logic design.*
+    * [📄 View/Download Report](./reports/EEE102_Lab4.pdf)
+* **[FPGA Lab 5]** - *Brief description of the logic design.*
+    * [📄 View/Download Report](./reports/EEE102_Lab5.pdf)
+* **[FPGA Lab 6]** - *Brief description of the logic design.*
+    * [📄 View/Download Report](./reports/EEE102_Lab6.pdf)
+* **[FPGA Lab 7]** - *Brief description of the logic design.*
+    * [📄 View/Download Report](./reports/EEE102_Lab7.pdf)
+* **[FPGA Project]** - *Brief description of the logic design.*
+    * [📄 View/Download Report](./reports/EEE102_Project_Report.pdf)
 
 </details>
 
