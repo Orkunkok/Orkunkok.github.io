@@ -35,11 +35,11 @@ This site documents the hardware projects and embedded systems I’ve developed 
 ---
 
 ## Work Done
-
+<div style="font-size: 18px;">
 <details>
 <summary><b>Embedded Systems and FPGA</b></summary>
   
-<div style="font-size: 18px;">
+<div style="font-size: 15px;">
   
 <details>
 <summary><b>Embedded Systems and Microcontroller</b></summary>
@@ -51,6 +51,8 @@ This site documents the hardware projects and embedded systems I’ve developed 
 </ul>
 </details>
 </div>
+
+<div style="font-size: 15px;">
 <details>
 <summary><b>Digital Systems and Design</b></summary>
 <ul>
@@ -64,10 +66,15 @@ This site documents the hardware projects and embedded systems I’ve developed 
   <li><b>Project</b> — <a href="reports/EEE102%Project%20Report.pdf" target="_blank" rel="noopener">View</a></li>
 </ul>
 </details>
+</div>
 </details>
+</div>
 --------------------------------------
+<div style="font-size: 18px;">
 <details>
   <summary><b>Feedback and Control Systems</b></summary>
+
+<div style="font-size: 15px;">
 <details>
   <summary><b>Feedback and Control Systems</b></summary>
   <ul>
@@ -79,10 +86,14 @@ This site documents the hardware projects and embedded systems I’ve developed 
     <li><b>Lab Assignment 3</b> — <a href="reports/EEE342%20lab3_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
+  </div>
 </details>
-
+</div>
+---
+<div style="font-size: 18px;">
 <details>
   <summary><b>Analog Systems</b></summary>
+  <div style="font-size: 15px;">
   <details>
   <summary><b>Circuit Theory</b></summary>
   <ul>
@@ -93,7 +104,9 @@ This site documents the hardware projects and embedded systems I’ve developed 
     <li><b>Lab Assignment 5</b> — <a href="reports/Lab5%20report%20ee202.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
+  </div>
 
+<div style="font-size: 15px;">
   <details>
   <summary><b>Analog Electronics</b></summary>
   <ul>
@@ -108,7 +121,8 @@ This site documents the hardware projects and embedded systems I’ve developed 
     <li><b>Lab Assignment 9</b> — <a href="reports/EEE211%20Lab9.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
-
+</div>
+<div style="font-size: 15px;">
   <details>
   <summary><b>Electronic Circuit Design</b></summary>
   <ul>
@@ -124,7 +138,8 @@ This site documents the hardware projects and embedded systems I’ve developed 
     <li><b>Project Part 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_ProjectExperimental.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
-
+</div>
+<div style="font-size: 15px;">
   <details>
   <summary><b>Power Electronics</b></summary>
   <ul>
@@ -142,7 +157,8 @@ This site documents the hardware projects and embedded systems I’ve developed 
     <li><b>Project Part 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_ProjectPart3.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
-
+</div>
+<div style="font-size: 15px;">
   <details>
   <summary><b>Analog CMOS Integrated Circuits</b></summary>
   <ul>
@@ -153,7 +169,8 @@ This site documents the hardware projects and embedded systems I’ve developed 
     <li><b>Project</b> — <a href="reports/EEE415%20Final%20Schematic%20and%20Layout%20Report.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
-
+</div>
+<div style="font-size: 15px;">
   <details>
   <summary><b>Microwave Electronics</b></summary>
   <ul>
@@ -170,8 +187,11 @@ This site documents the hardware projects and embedded systems I’ve developed 
     <li><b>Project Part 2</b> — <a href="reports/EEE412%20Kok_OrkunIbrahim%20PROJECT%20FINAL.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
+</div>
 </details>
-
+</div>
+---
+<div style="font-size: 18px;">
 <details>
   <summary><b>Signals and Systems</b></summary>
   <ul>
@@ -183,3 +203,4 @@ This site documents the hardware projects and embedded systems I’ve developed 
     <li><b>Lab Assignment 6</b> — <a href="reports/EEE321%20LAB6_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
   </details>
+</div>
