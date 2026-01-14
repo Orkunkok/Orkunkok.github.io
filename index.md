@@ -38,9 +38,9 @@ This site documents the hardware projects and embedded systems I’ve developed 
 
 <details>
 <summary><b>🛠️ Embedded Systems and FPGA (Click to expand)</b></summary>
-<br>
 
-# Embedded Systems and Microcontroller
+### 💻 Embedded Systems and Microcontroller
+*Focus: STM32, MSP430, and C/Assembly programming.*
 
 * **[Project Title 1]** - *Brief description of hardware used.*
     * [📄 View/Download Report](./reports/embedded_report1.pdf)
@@ -49,25 +49,14 @@ This site documents the hardware projects and embedded systems I’ve developed 
 
 ---
 
-# FPGA
+### ⚡ FPGA
+*Focus: Digital logic design and Verilog/VHDL.*
 
-* **[FPGA Lab 1]** - *Brief description of the logic design.*
+* **EEE102 Lab 1** - *Introduction to Digital Circuit Design.*
     * [📄 View/Download Report](./reports/EEE102%20Lab%201.pdf)
-* **[FPGA Lab 2]** - *Brief description of the logic design.*
+* **EEE102 Lab 2** - *Combinational Logic Design.*
     * [📄 View/Download Report](./reports/EEE102%20Lab%202.pdf)
-* **[FPGA Lab 3]** - *Brief description of the logic design.*
-    * [📄 View/Download Report](./reports/EEE102%20Lab%203.pdf)
-* **[FPGA Lab 4]** - *Brief description of the logic design.*
-    * [📄 View/Download Report](./reports/EEE102%20Lab%204.pdf)
-* **[FPGA Lab 5]** - *Brief description of the logic design.*
-    * [📄 View/Download Report](./reports/EEE102%20Lab%205.pdf)
-* **[FPGA Lab 6]** - *Brief description of the logic design.*
-    * [📄 View/Download Report](./reports/EEE102%20Lab%206.pdf)
-* **[FPGA Lab 7]** - *Brief description of the logic design.*
-    * [📄 View/Download Report](./reports/EEE102%20Lab%207.pdf)
-* **[FPGA Project]** - *Brief description of the logic design.*
+* **EEE102 Project** - *Final Hardware Design Project.*
     * [📄 View/Download Report](./reports/EEE102%20Project%20Report.pdf)
 
 </details>
-
----
