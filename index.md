@@ -121,6 +121,22 @@ This site documents the hardware projects and embedded systems I’ve developed 
 <details>
   <summary><b>Feedback and Control Systems</b></summary>
   <ul>
-    <li><b>Some File</b> — <a href="reports/EEE342%20lab1_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Assignment 1</b> — <a href="reports/prelab1_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
+  <ul>
+    <li><b>Preliminary Assignment 2</b> — <a href="reports/prelab2_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+  <ul>
+    <li><b>Preliminary Assignment 3</b> — <a href="reports/prelab3_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+    <ul>
+    <li><b>Assignment 1</b> — <a href="reports/EEE342%20lab1_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+    <ul>
+    <li><b>Assignment 2</b> — <a href="reports/EEE342%20lab2_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+  <ul>
+    <li><b>Assignment 3</b> — <a href="reports/EEE342%20lab3_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+  
 </details>
