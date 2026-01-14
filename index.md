@@ -39,6 +39,8 @@ This site documents the hardware projects and embedded systems I’ve developed 
 <details>
 <summary><b>🛠️ Embedded Systems and FPGA (Click to expand)</b></summary>
 
+<br>
+
 ### 💻 Embedded Systems and Microcontroller
 *Focus: STM32, MSP430, and C/Assembly programming.*
 
@@ -52,11 +54,11 @@ This site documents the hardware projects and embedded systems I’ve developed 
 ### ⚡ FPGA
 *Focus: Digital logic design and Verilog/VHDL.*
 
-* **EEE102 Lab 1** - *Introduction to Digital Circuit Design.*
-    * [📄 View/Download Report](./reports/EEE102%20Lab%201.pdf)
-* **EEE102 Lab 2** - *Combinational Logic Design.*
-    * [📄 View/Download Report](./reports/EEE102%20Lab%202.pdf)
-* **EEE102 Project** - *Final Hardware Design Project.*
+* **EEE102 Lab 1**
+    * [📄 View/Download Report](./reports/EEE102%20Lab%20201.pdf)
+* **EEE102 Lab 2**
+    * [📄 View/Download Report](./reports/EEE102%20Lab%20202.pdf)
+* **EEE102 Project**
     * [📄 View/Download Report](./reports/EEE102%20Project%20Report.pdf)
 
 </details>
