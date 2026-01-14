@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Orkun Kök
+title: Orkun İbrahim Kök
 ---
 
-# Orkun Kök  
+# Orkun İbrahim Kök  
 **Bilkent University | Electrical and Electronics Engineering**
 
 ---
