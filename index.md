@@ -36,8 +36,26 @@ This site documents the hardware projects and embedded systems I’ve developed 
 
 ## Work Done
 
-### **[Project Name]**
-*Description of the project or assignment.*
+<details>
+<summary><b>🛠️ Embedded Systems and FPGA (Click to expand)</b></summary>
+<br>
 
-### **[Project Name]**
-*Description of the project or assignment.*
+### 💻 Embedded Systems and Microcontroller
+
+* **[Project Title 1]** - *Brief description of hardware used.*
+    * [📄 View/Download Report](./reports/embedded_report1.pdf)
+* **[Project Title 2]** - *Brief description of hardware used.*
+    * [📄 View/Download Report](./reports/embedded_report2.pdf)
+
+---
+
+### ⚡ FPGA
+
+* **[FPGA Project Title 1]** - *Brief description of the logic design.*
+    * [📄 View/Download Report](./reports/fpga_report1.pdf)
+* **[FPGA Project Title 2]** - *Brief description of the logic design.*
+    * [📄 View/Download Report](./reports/fpga_report2.pdf)
+
+</details>
+
+---
