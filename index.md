@@ -37,85 +37,47 @@ This site documents the hardware projects and embedded systems I’ve developed 
 ## Work Done
 
 <details>
-<summary><b>Embedded Systems and FPGA (Click to expand)</b></summary>
+<summary><b>Embedded Systems and FPGA</b></summary>
 
 ## **Digital Systems and Design**
+<ul>
+  <li><b>Assignment 1</b> — <a href="reports/EEE102%20Lab1.pdf" target="_blank" rel="noopener">View</a></li>
+</ul>
+<ul>
+  <li><b>Assignment 2</b> — <a href="reports/EEE102%20Lab2.pdf" target="_blank" rel="noopener">View</a></li>
+</ul>
+<ul>
+  <li><b>Assignment 3</b> — <a href="reports/EEE102%20Lab3.pdf" target="_blank" rel="noopener">View</a></li>
+</ul>
+<ul>
+  <li><b>Assignment 4</b> — <a href="reports/EEE102%20Lab4.pdf" target="_blank" rel="noopener">View</a></li>
+</ul>
+<ul>
+  <li><b>Assignment 5</b> — <a href="reports/EEE102%20Lab5.pdf" target="_blank" rel="noopener">View</a></li>
+</ul>
+<ul>
+  <li><b>Assignment 6</b> — <a href="reports/EEE102%20Lab6.pdf" target="_blank" rel="noopener">View</a></li>
+</ul>
+<ul>
+  <li><b>Assignment 7</b> — <a href="reports/EEE102%20Lab7.pdf" target="_blank" rel="noopener">View</a></li>
+</ul>
+<ul>
+  <li><b>Project</b> — <a href="reports/EEE102%Project%20Report.pdf" target="_blank" rel="noopener">View</a></li>
+</ul>
 
-**Assignment 1**
-<a href="reports/EEE102%20Lab1.pdf" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
- <br>
-**Assignment 2**
-<a href="reports/EEE102%20Lab2.pdf" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-<br>
-**Assignment 3**
-<a href="reports/EEE102%20Lab3.pdf" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-<br>
-**Assignment 4**
-<a href="reports/EEE102%20Lab4.pdf" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-<br>
-**Assignment 5**
-<a href="reports/EEE102%20Lab5.pdf" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-<br>
-**Assignment 6**
-<a href="reports/EEE102%20Lab6.pdf" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-<br>
-**Assignment 7**
-<a href="reports/EEE102%20Lab7.pdf" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-<br>
-**Project**
-<a href="reports/EEE102%20Project%20Report.pdf" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-<br>
 ## Embedded Systems and Microcontroller
-<br>
-
-**Assignment 1**
-<a href="reports/EEE212%20LAB2_Q1.txt" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-<br>
-**Assignment 2**
-<a href="reports/EEE212%20LAB2_Q2.txt" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-<br>
-**Assignment 3**
-<a href="reports/EEE212%20LAB5.txt" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-<br>
-**Project**
-<a href="reports/EEE212%20Proje.txt" target="_blank" rel="noopener"
-   style="display:inline-block;padding:8px 12px;border:1px solid #333;border-radius:6px;text-decoration:none;">
-  View
-</a>
-
+<ul>
+  <li><b>Assignment 1</b> — <a href="reports/EEE212%20LAB2_Q1.txt" target="_blank" rel="noopener">View</a></li>
+</ul>
+<ul>
+  <li><b>Assignment 2</b> — <a href="reports/EEE212%20LAB2_Q2.txt" target="_blank" rel="noopener">View</a></li>
+</ul>
+<ul>
+  <li><b>Assignment 3</b> — <a href="reports/EEE212%20LAB5.txt" target="_blank" rel="noopener">View</a></li>
+</ul>
+<ul>
+  <li><b>Project</b> — <a href="reports/EEE212%20Proje.txt" target="_blank" rel="noopener">View</a></li>
+</ul>
 </details>
 
 <details>
