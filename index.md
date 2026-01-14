@@ -54,11 +54,9 @@ This site documents the hardware projects and embedded systems I’ve developed 
 ### ⚡ FPGA
 *Focus: Digital logic design and Verilog/VHDL.*
 
-* **EEE102 Lab 1**
-    * [📄 View/Download Report](./reports/EEE102_Lab1.pdf)
-* **EEE102 Lab 2**
-    * [📄 View/Download Report](./reports/EEE102_Lab2.pdf)
-* **EEE102 Project**
-    * [📄 View/Download Report](./reports/EEE102_Lab3.pdf)
+<a href="{{ '/reports/EEE102Lab1.pdf' | relative_url }}" target="_blank" rel="noopener">📄 View</a>
+&nbsp;|&nbsp;
+<a href="{{ '/reports/EEE102_Lab1.pdf' | relative_url }}" download>⬇️ Download</a>
+[📄 View/Download Report](./reports/EEE102%20Lab1.pdf)
 
 </details>
