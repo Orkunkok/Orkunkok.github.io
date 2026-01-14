@@ -41,13 +41,13 @@ This site documents the hardware projects and embedded systems I’ve developed 
 <details>
 <summary><b>Digital Systems and Design</b></summary>
 <ul>
-  <li><b>Assignment 1</b> — <a href="reports/EEE102%20Lab1.pdf" target="_blank" rel="noopener">View</a></li>
-  <li><b>Assignment 2</b> — <a href="reports/EEE102%20Lab2.pdf" target="_blank" rel="noopener">View</a></li>
-  <li><b>Assignment 3</b> — <a href="reports/EEE102%20Lab3.pdf" target="_blank" rel="noopener">View</a></li>
-  <li><b>Assignment 4</b> — <a href="reports/EEE102%20Lab4.pdf" target="_blank" rel="noopener">View</a></li>
-  <li><b>Assignment 5</b> — <a href="reports/EEE102%20Lab5.pdf" target="_blank" rel="noopener">View</a></li>
-  <li><b>Assignment 6</b> — <a href="reports/EEE102%20Lab6.pdf" target="_blank" rel="noopener">View</a></li>
-  <li><b>Assignment 7</b> — <a href="reports/EEE102%20Lab7.pdf" target="_blank" rel="noopener">View</a></li>
+  <li><b>Lab Assignment 1</b> — <a href="reports/EEE102%20Lab1.pdf" target="_blank" rel="noopener">View</a></li>
+  <li><b>Lab Assignment 2</b> — <a href="reports/EEE102%20Lab2.pdf" target="_blank" rel="noopener">View</a></li>
+  <li><b>Lab Assignment 3</b> — <a href="reports/EEE102%20Lab3.pdf" target="_blank" rel="noopener">View</a></li>
+  <li><b>Lab Assignment 4</b> — <a href="reports/EEE102%20Lab4.pdf" target="_blank" rel="noopener">View</a></li>
+  <li><b>Lab Assignment 5</b> — <a href="reports/EEE102%20Lab5.pdf" target="_blank" rel="noopener">View</a></li>
+  <li><b>Lab Assignment 6</b> — <a href="reports/EEE102%20Lab6.pdf" target="_blank" rel="noopener">View</a></li>
+  <li><b>Lab Assignment 7</b> — <a href="reports/EEE102%20Lab7.pdf" target="_blank" rel="noopener">View</a></li>
   <li><b>Project</b> — <a href="reports/EEE102%Project%20Report.pdf" target="_blank" rel="noopener">View</a></li>
 </ul>
 </details>
@@ -68,12 +68,12 @@ This site documents the hardware projects and embedded systems I’ve developed 
 <details>
   <summary><b>Feedback and Control Systems</b></summary>
   <ul>
-    <li><b>Preliminary Assignment 1</b> — <a href="reports/prelab1_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Preliminary Assignment 2</b> — <a href="reports/prelab2_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Preliminary Assignment 3</b> — <a href="reports/prelab3_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 1</b> — <a href="reports/EEE342%20lab1_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 2</b> — <a href="reports/EEE342%20lab2_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 3</b> — <a href="reports/EEE342%20lab3_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 1</b> — <a href="reports/prelab1_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 2</b> — <a href="reports/prelab2_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 3</b> — <a href="reports/prelab3_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 1</b> — <a href="reports/EEE342%20lab1_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 2</b> — <a href="reports/EEE342%20lab2_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 3</b> — <a href="reports/EEE342%20lab3_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
 </details>
@@ -83,42 +83,72 @@ This site documents the hardware projects and embedded systems I’ve developed 
   <details>
   <summary><b>Circuit Theory</b></summary>
   <ul>
-    <li><b>Assignment 1</b> — <a href="reports/lab1%20ee202%20report.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 2</b> — <a href="reports/Lab2%20ee202%20report.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 3</b> — <a href="reports/lab3%20ee202%20report.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 4</b> — <a href="reports/Lab4%20report%20ee202.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 5</b> — <a href="reports/Lab5%20report%20ee202.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 1</b> — <a href="reports/lab1%20ee202%20report.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 2</b> — <a href="reports/Lab2%20ee202%20report.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 3</b> — <a href="reports/lab3%20ee202%20report.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 4</b> — <a href="reports/Lab4%20report%20ee202.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 5</b> — <a href="reports/Lab5%20report%20ee202.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
 
   <details>
   <summary><b>Analog Electronics</b></summary>
   <ul>
-    <li><b>Assignment 1</b> — <a href="reports/eee211%20lab1.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 2</b> — <a href="reports/EEE211%20Lab2.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 3</b> — <a href="reports/EEE211%20Lab3.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 4</b> — <a href="reports/EEE211%20Lab4.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 5</b> — <a href="reports/EEE211%20Lab5.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 6</b> — <a href="reports/EEE211%20Lab6.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 7</b> — <a href="reports/EEE211%20Lab7.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 8</b> — <a href="reports/EEE211%20Lab8.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 9</b> — <a href="reports/EEE211%20Lab9.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 1</b> — <a href="reports/eee211%20lab1.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 2</b> — <a href="reports/EEE211%20Lab2.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 3</b> — <a href="reports/EEE211%20Lab3.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 4</b> — <a href="reports/EEE211%20Lab4.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 5</b> — <a href="reports/EEE211%20Lab5.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 6</b> — <a href="reports/EEE211%20Lab6.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 7</b> — <a href="reports/EEE211%20Lab7.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 8</b> — <a href="reports/EEE211%20Lab8.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 9</b> — <a href="reports/EEE211%20Lab9.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
 
   <details>
   <summary><b>Electronic Circuit Design</b></summary>
   <ul>
-    <li><b>Preliminary Assignment 1</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab1Experimental.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Preliminary Assignment 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab2Experimental.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Preliminary Assignment 3</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab3Experimental.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Preliminary Assignment 4</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab4Experimental.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 1</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab1.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab2.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 3</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab3.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 4</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab4.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 1</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab1Experimental.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab2Experimental.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 3</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab3Experimental.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 4</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab4Experimental.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 1</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab1.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab2.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 3</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab3.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 4</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Lab4.pdf" target="_blank" rel="noopener">View</a></li>
     <li><b>Project Part 1</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_Project.pdf" target="_blank" rel="noopener">View</a></li>
     <li><b>Project Part 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE313_ProjectExperimental.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
+
+  <details>
+  <summary><b>Power Electronics</b></summary>
+  <ul>
+    <li><b>Assignment 1</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_hw1.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_hw2.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 3</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_hw3.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 4</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_hw4.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 1</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_Lab1_Pre.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_Lab2_Pre.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 3</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_Lab3_Pre.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 1</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_Lab1_Experimental.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_Lab1_Experimental.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 3</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_Lab1_Experimental.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Project Part 1</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_ProjectPart1.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Project Part 2</b> — <a href="reports/Kök_Orkunİbrahim_EEE419_ProjectPart3.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+</details>
+
+  <details>
+  <summary><b>Analog CMOS Integrated Circuits</b></summary>
+  <ul>
+    <li><b>Assignment 1</b> — <a href="reports/CMOS%20hw1.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 2</b> — <a href="reports/EEE415%20Homework%202.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 3</b> — <a href="reports/EEE415%20Homework%202.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 4</b> — <a href="reports/EEE415%20Homework%202.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Project</b> — <a href="reports/EEE415%20Final%20Schematic%20and%20Layout%20Report.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+</details>
+
 </details>
