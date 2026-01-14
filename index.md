@@ -23,7 +23,7 @@ This site documents the hardware projects and embedded systems I’ve developed 
 
 ### **Engineering Intern – Europower**  
 *3 July 2023 – 28 July 2023*  
-- Contributed to the design of 170 kV circuit breakers.  
+- Contributed to the design of the 170 kV circuit breaker electric panel.  
 - Performed quality control inspections on circuit breakers.
   
 ### **Engineering Intern – Havelsan Radar Teknoloji (HTR)**  
