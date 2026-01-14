@@ -38,6 +38,19 @@ This site documents the hardware projects and embedded systems I’ve developed 
 
 <details>
 <summary><b>Embedded Systems and FPGA</b></summary>
+  
+<div style="font-size: 18px;">
+  
+<details>
+<summary><b>Embedded Systems and Microcontroller</b></summary>
+<ul>
+  <li><b>Assignment 1</b> — <a href="reports/EEE212%20LAB2_Q1.txt" target="_blank" rel="noopener">View</a></li>
+  <li><b>Assignment 2</b> — <a href="reports/EEE212%20LAB2_Q2.txt" target="_blank" rel="noopener">View</a></li>
+  <li><b>Assignment 3</b> — <a href="reports/EEE212%20LAB5.txt" target="_blank" rel="noopener">View</a></li>
+  <li><b>Project</b> — <a href="reports/EEE212%20Proje.txt" target="_blank" rel="noopener">View</a></li>
+</ul>
+</details>
+</div>
 <details>
 <summary><b>Digital Systems and Design</b></summary>
 <ul>
@@ -49,16 +62,6 @@ This site documents the hardware projects and embedded systems I’ve developed 
   <li><b>Lab Assignment 6</b> — <a href="reports/EEE102%20Lab6.pdf" target="_blank" rel="noopener">View</a></li>
   <li><b>Lab Assignment 7</b> — <a href="reports/EEE102%20Lab7.pdf" target="_blank" rel="noopener">View</a></li>
   <li><b>Project</b> — <a href="reports/EEE102%Project%20Report.pdf" target="_blank" rel="noopener">View</a></li>
-</ul>
-</details>
-  
-<details>
-<summary><b>Embedded Systems and Microcontroller</b></summary>
-<ul>
-  <li><b>Assignment 1</b> — <a href="reports/EEE212%20LAB2_Q1.txt" target="_blank" rel="noopener">View</a></li>
-  <li><b>Assignment 2</b> — <a href="reports/EEE212%20LAB2_Q2.txt" target="_blank" rel="noopener">View</a></li>
-  <li><b>Assignment 3</b> — <a href="reports/EEE212%20LAB5.txt" target="_blank" rel="noopener">View</a></li>
-  <li><b>Project</b> — <a href="reports/EEE212%20Proje.txt" target="_blank" rel="noopener">View</a></li>
 </ul>
 </details>
 </details>
@@ -168,3 +171,15 @@ This site documents the hardware projects and embedded systems I’ve developed 
   </ul>
 </details>
 </details>
+
+<details>
+  <summary><b>Signals and Systems</b></summary>
+  <ul>
+    <li><b>Lab Assignment 1</b> — <a href="reports/EEE321%20LAB1_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 2</b> — <a href="reports/EEE321%20LAB2_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 3</b> — <a href="reports/EEE321%20LAB3_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 4</b> — <a href="reports/EEE321%20LAB4_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 5</b> — <a href="reports/EEE321%20LAB5_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 6</b> — <a href="reports/EEE321%20LAB6_orkun_ibrahim_kok.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+  </details>
