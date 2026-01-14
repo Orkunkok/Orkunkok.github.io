@@ -145,10 +145,26 @@ This site documents the hardware projects and embedded systems I’ve developed 
   <ul>
     <li><b>Assignment 1</b> — <a href="reports/CMOS%20hw1.pdf" target="_blank" rel="noopener">View</a></li>
     <li><b>Assignment 2</b> — <a href="reports/EEE415%20Homework%202.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 3</b> — <a href="reports/EEE415%20Homework%202.pdf" target="_blank" rel="noopener">View</a></li>
-    <li><b>Assignment 4</b> — <a href="reports/EEE415%20Homework%202.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 3</b> — <a href="reports/EEE415%20Homework%203.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 4</b> — <a href="reports/EEE415%20Homework%204.pdf" target="_blank" rel="noopener">View</a></li>
     <li><b>Project</b> — <a href="reports/EEE415%20Final%20Schematic%20and%20Layout%20Report.pdf" target="_blank" rel="noopener">View</a></li>
   </ul>
 </details>
 
+  <details>
+  <summary><b>Microwave Electronics</b></summary>
+  <ul>
+    <li><b>Preliminary Lab Assignment 1</b> — <a href="reports/EEE412%20Prelab1_Kok_OrkunIbrahim.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Preliminary Lab Assignment 2</b> — <a href="reports/EEE412%20Prelab2_Kok_OrkunIbrahim.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 1</b> — <a href="reports/EEE412%20Lab1_Kok_OrkunIbrahim.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Lab Assignment 2</b> — <a href="reports/EEE412%20Lab2_Kok_OrkunIbrahim.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 1</b> — <a href="reports/EEE412%20assignment%201.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 2</b> — <a href="reports/EEE412%20assignment%202.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 3</b> — <a href="reports/EEE412%20assignment%203.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 4</b> — <a href="reports/EEE412%20assignment%204.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Assignment 5</b> — <a href="reports/EEE412%20assignment%205.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Project Part 1</b> — <a href="reports/EEE412%20Kok_OrkunIbrahim_ProjectPCB.pdf" target="_blank" rel="noopener">View</a></li>
+    <li><b>Project Part 2</b> — <a href="reports/EEE412%20Kok_OrkunIbrahim%20PROJECT%20FINAL.pdf" target="_blank" rel="noopener">View</a></li>
+  </ul>
+</details>
 </details>
