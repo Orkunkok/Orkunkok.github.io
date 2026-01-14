@@ -55,7 +55,7 @@ This site documents the hardware projects and embedded systems I’ve developed 
 *Focus: Digital logic design and Verilog/VHDL.*
 
 * **EEE102 Lab 1**
-    * [📄 View/Download Report](./reports/EEE102%20Lab%20201.pdf)
+    * [📄 View/Download Report](./reports/EEE102_Lab_1.pdf)
 * **EEE102 Lab 2**
     * [📄 View/Download Report](./reports/EEE102%20Lab%20202.pdf)
 * **EEE102 Project**
